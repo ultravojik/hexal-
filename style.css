@@ -1,0 +1,110 @@
+body, html{
+    font-size: #323232;
+    /*height: 100%;*/
+
+}
+
+.button-submit{
+background: grey;
+}
+
+button{
+    background: gray;
+}
+
+
+.subtitle {
+font-family: 'Courier New', Courier, monospace;
+font-size: 14px;
+}
+
+.header{
+background: #323232;
+height: 160px;
+
+}
+
+.links{
+    color: azure;
+    position: absolute;     
+    top: 120px;
+    margin: -100px 20% 0 20%;
+    width: 976px;
+}
+
+.image{
+width: 200px;
+}
+
+.image_S{
+    width: 220px;
+     
+}
+.hexagon{
+    width: 180px;
+    height: 210px;
+    margin: 5px;
+    transform: rotate(120deg);
+    overflow: hidden;
+    visibility: hidden;
+    display: inline-block;
+    transition: transform 1s ease-in;
+}
+.hex-layer-1 {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-60deg);
+    overflow: hidden;;
+    visibility: hidden;
+
+}
+
+.hex-layer-2 {
+    width: 100%;
+    height: 100%;
+    background: #ccc3;
+    background-image: url('assets/images/Layer33@1X.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    transform: rotate(-60deg);
+    overflow: hidden;
+    visibility: visible;
+    
+}
+
+.footer{
+    
+    background:#323232;
+    position: absolute;
+    margin: 0 auto;
+    
+}
+
+.main{
+    /**/
+}
+
+.space{
+    height: auto;
+}
+
+.pointy{
+    width: 180px;
+    margin: -100px auto 0 auto;
+}
+.logo{
+    width: 65px;
+    margin: -100px auto 0 auto;
+}
+.body_{
+    height: 100%;
+    margin: 0 auto;
+    width: 976px;
+}
+
+h4{
+    color: #248f79;
+}
+.smith{
+    background: #2eb398;
+}
